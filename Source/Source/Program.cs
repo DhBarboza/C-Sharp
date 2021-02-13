@@ -9,6 +9,7 @@ namespace Source {
             var central = new ExerciseCenter(new Dictionary<string, Action>() {
                 {"FirstProgram - Fundamentals", FirstProgram.Run},
                 {"Comments - Fundamentals", Comments.Run},
+                {"Variables and Constants - Fundamentals", VariablesAndConstants.Run},
             });
 
             // Método "Selecionar e Executar" do arquivo "CentralDeExercicios.cs":
