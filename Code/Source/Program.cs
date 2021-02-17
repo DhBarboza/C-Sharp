@@ -10,6 +10,7 @@ namespace Source {
                 {"FirstProgram - Fundamentals", FirstProgram.Run},
                 {"Comments - Fundamentals", Comments.Run},
                 {"Variables and Constants - Fundamentals", VariablesAndConstants.Run},
+                {"Inferencies - Fundamentals", Inference.Run},
             });
 
             // Método "Selecionar e Executar" do arquivo "CentralDeExercicios.cs":
