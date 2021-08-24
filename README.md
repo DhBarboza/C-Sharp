@@ -55,3 +55,19 @@ Repository that contains the learning path of the C# (C Sharp) programming langu
 
 ### CLI .NET:
 - [Dotnet](/cli-dotnet.md)
+
+### C# programs offered on .Net include:
+- CLR (Common Language Runtime)
+- Unified set of libraries and class
+
+### Current compiler:
+- Roslyn
+
+### Operation:
+- Source code written in C# is compiled into an intermediate language (IL)
+- IL codes and resources are stored on disk in an executable file called an assembly
+- extensions file: 
+    - .exe
+    - .dll
+
+
