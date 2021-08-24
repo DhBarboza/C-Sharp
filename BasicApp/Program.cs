@@ -4,7 +4,8 @@ namespace BasicApp
 {
     class Program
     {
-        static void Main() {
+        static void Main()
+        {
             var s = new Pilha();
             s.Empilha(1);
             s.Empilha(10);
