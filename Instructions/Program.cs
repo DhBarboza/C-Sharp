@@ -104,7 +104,7 @@ namespace Instructions
             }
         }
 
-        static void StructReturn(string[] args)
+        static void StructReturn()
         {
             int Somar(int a, int b)
             {
