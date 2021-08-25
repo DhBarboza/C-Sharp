@@ -4,6 +4,7 @@ namespace Instructions
 {
     class Program
     {
+        // Declarar variáveis e constantes:
         static void Declarations()
         {
             int a = 1;
@@ -92,9 +93,78 @@ namespace Instructions
 
         static void StructContinue(string[] args)
         {
+            for (int z = 0; z < args.Length; z++)
+            {
+                if (args[z].StartsWith("/"))
+                {
+                    continue;
+                }
 
+                Console.WriteLine($"{args[z]}");
+            }
         }
 
+        static void StructReturn(string[] args)
+        {
+            int Somar(int a, int b)
+            {
+                return a + b;
+            }
 
+            Console.WriteLine($"{Somar(1, 2)}");
+            Console.WriteLine($"{Somar(4, 7)}");
+            Console.WriteLine($"{Somar(8, 9)}");
+            return;
+        }
+
+        static void StructTryCatchFinallyThrow(string[] args)
+        {
+            double Divider(double x, double y)
+            {
+                if (y == 0)
+                    throw new DivideByZeroException();
+
+                return x / y;
+            }
+
+            try
+            {
+                if (args.Length != 2)
+                {
+                    throw new InvalidOperationException("Informe dois números");
+                }
+
+                double x = double.Parse(args[0]);
+                double y = double.Parse(args[1]);
+                Console.WriteLine($"{Divider(x, y)}");
+
+            }
+
+            catch (InvalidOperationException e)
+            {
+                Console.WriteLine($"{e.Message}");
+            }
+
+            catch (Exception e)
+            {
+                Console.WriteLine($"Erro generico {e.Message}");
+            }
+
+            finally
+            {
+                Console.WriteLine($"Bye!");
+            }
+        }
+
+        static void StructUsing(string[] args)
+        {
+
+            using (System.IO.TextWriter w = System.IO.File.CreateText("teste.txt"))
+            {
+                w.WriteLine("Line 1");
+                w.WriteLine("Line 2");
+                w.WriteLine("Line 3");
+            }
+        }
     }
 }
