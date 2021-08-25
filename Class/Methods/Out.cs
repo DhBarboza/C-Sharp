@@ -12,8 +12,8 @@ namespace Class.Methods
 
         public static void Divider()
         {
-            Divider(15, 3, out int result, out int rest);
-            Console.WriteLine($"{0} {1}", result, rest); // Outut: 5 1
+            Divider(15, 2, out int result, out int rest);
+            Console.WriteLine($"{0} {1}", result, rest); // Outut: 7 1
     
         }
     }
