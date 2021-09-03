@@ -2,18 +2,24 @@
 Repository that contains the learning path of the C# (C Sharp) programming language 
 
 ### Prepare your environment:
-> install SDK (software development kit):
-    - url: https://dotnet.microsoft.com/download
+install SDK (software development kit):
 
-> install IDE (Integrate development enviroment):
-    Visual Studio Community 2019:
-    - url: https://visualstudio.microsoft.com/pt-br/downloads/
+    https://dotnet.microsoft.com/download
 
-    Visual Studio Code:
-    - url: https://code.visualstudio.com/download
+### install IDE (Integrate development enviroment):
 
-> Check on your terminal:
-    - execute the command: dotnet --list-sdks
+Visual Studio Community 2019:
+    
+    https://visualstudio.microsoft.com/pt-br/downloads/
+
+Visual Studio Code:
+
+    https://code.visualstudio.com/download
+
+Check on your terminal:
+- execute the command: 
+
+      dotnet --list-sdks
 
 ### .Net:
 - Infrastructure for software development created by microsoft
